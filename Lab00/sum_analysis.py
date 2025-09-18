@@ -1,3 +1,4 @@
+# lab_complexity_alt_examples.py
 # Лабораторная работа: анализ сложности алгоритмов (O(1) и O(N))
 # Примеры: проверка чётности числа и поиск максимума в массиве
 
@@ -104,4 +105,8 @@ plt.ylabel("Время (мс)")
 plt.title("Эмпирическая сложность: O(1) vs O(N)")
 plt.grid(True, linestyle='--', alpha=0.7)
 plt.legend()
+
+# Сохраняем график в файл PNG
+plt.savefig("performance.png", dpi=300, bbox_inches="tight")
+
 plt.show()
