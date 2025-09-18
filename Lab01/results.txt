@@ -1,0 +1,16 @@
+Размер массива | Linear (ms) | Binary (ms)
+----------------------------------------
+n=  1000 | linear=0.01863 ms | binary=0.00114 ms
+n=  2000 | linear=0.03580 ms | binary=0.00128 ms
+n=  5000 | linear=0.06464 ms | binary=0.00117 ms
+n= 10000 | linear=0.11913 ms | binary=0.00144 ms
+n= 20000 | linear=0.28106 ms | binary=0.00176 ms
+n= 50000 | linear=0.69804 ms | binary=0.00184 ms
+n=100000 | linear=1.39922 ms | binary=0.00205 ms
+n=200000 | linear=2.65306 ms | binary=0.00232 ms
+ 
+Характеристики ПК для тестирования: 
+- Процессор: 12th Gen Intel(R) Core(TM) i5-12450H   2.00 GHz
+- Оперативная память: 16 GB DDR4 
+- ОС: Windows 11 Pro
+- Python: 3.10.10 
